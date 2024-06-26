@@ -1,0 +1,19 @@
+.main{
+    width: 100px;
+    height: auto;
+
+    position: absolute;
+
+    animation-name: left-move;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes left-move{
+    from{
+        left: 0;
+    }
+    to{
+        left: 800px;
+    }
+} 
